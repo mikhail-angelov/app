@@ -1,0 +1,93 @@
+<div class="info" align="left" valign="top">
+    <!-- Наполнение страницы НАЧАЛО-->					<script language="JavaScript">
+    document.title = "BOLTNN.RU - Нижегородский Центр Крепежа - Ищите крепеж - пишите! Найдем любой!";
+</script>
+    <span class="infobigb"><img src="./images/point.gif" width="14" height="14" border="0"> <a class="navbigb" href="?p=54">Запрос</a><br><br></span>
+    <p><script language="JavaScript">
+        <!--
+        function check_zapros_form()
+        {
+            var error=0;
+            var mes="";
+
+            if (zapros.name.value == "")
+            {
+                mes += "Вы не ввели контактное лицо.\n\n";
+                error = 1;
+            }
+            if (zapros.mail.value == "")
+            {
+                mes += "Вы не ввели e-mail.\n\n";
+                error = 1;
+            }
+            if (zapros.direct.value < 0)
+            {
+                mes += "Вы не выбрали направление.\n\n";
+                error = 1;
+            }
+            if (zapros.text.value == "")
+            {
+                mes += "Вы не ввели текст сообщения.\n\n";
+                error = 1;
+            }
+
+            if (error == 1)
+                alert(mes);
+            else
+                zapros.submit();
+        }
+        //-->
+    </script>
+
+    </p><p class="info">Задайте свой вопрос или направьте свой запрос на рассмотрение специалистам. Вам ответят в течении 24 часов.</p>
+    <br>
+    <p align="left" class="error">звездочкой (*) помечены поля формы обязательные для заполнения.</p>
+
+    <form name="zapros" action="./index.php?p=54" method="post">
+        <table border="0" align="left" cellpadding="5" cellspacing="0" width="450">
+
+            <tbody><tr>
+                <td width="150" align="right"><b class="info">Организация:</b></td>
+                <td><input type="text" name="org" class="newc" size="55" maxlength="150" value="" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; cursor: auto; background-position: 100% 50%; background-repeat: no-repeat no-repeat;"></td>
+            </tr>
+            <tr>
+                <td width="150" align="right"><b class="info">* Контактное лицо:</b></td>
+                <td><input type="text" name="name" class="newc" size="55" maxlength="100" value=""></td>
+            </tr>
+
+            <tr>
+                <td align="right"><b class="info">* E-mail:</b></td>
+                <td><input type="text" name="mail" class="newc" size="55" maxlength="100" value=""></td>
+            </tr>
+
+            <tr>
+                <td align="right"><b class="info">Телефон/факс:</b></td>
+                <td><input type="text" name="phone" class="newc" size="55" maxlength="50" value=""></td>
+            </tr>
+
+            <tr>
+                <td align="right"><b class="info">* Тип вопроса:</b></td>
+                <td>
+                    <select name="direct" class="newc">
+                        <option value="-1"> - выберите тип вопроса - </option>
+                        <option value="1">Рассмотрение специальных цен</option><option value="2">Предложение на поставку</option><option value="3">Сообщить о нерабочей ссылке</option>				</select>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right" valign="top"><b class="info">* Текст сообщения:</b></td>
+                <td><textarea class="newc" name="text" rows="9" cols="54"></textarea></td>
+            </tr>
+
+            <tr>
+                <td align="right" colspan="2">
+                    <input type="hidden" name="Send" value="1">
+                    <input type="button" class="newc" onclick="check_zapros_form();" value="Отправить">
+                </td>
+            </tr>
+            </tbody></table>
+    </form>
+    <p></p>
+    <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>
+    <br><table border="0" cellspacing="0" cellpadding="0" width="460"><tbody><tr><td align="right" valign="center"><a href="print.php?p=54" target="_blank" class="nav">Версия для печати <img src="./images/printer.gif" width="27" height="29" border="0"></a></td></tr></tbody></table><br><!-- Наполнение страницы КОНЕЦ-->
+</div>

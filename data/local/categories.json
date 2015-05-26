@@ -3,9 +3,9 @@
     "urlId": "",
     "originFullUrl": "/",
     "children": [{
-        "label": "Genusswelten",
-        "urlId": "genusswelten",
-        "originFullUrl": "/genusswelten",
+        "label": "Строительный крепеж",
+        "urlId": "с1",
+        "originFullUrl": "/с1",
         "children": [{
             "label": "Tees und Zubeh\u00f6r",
             "urlId": "genusswelten-tees-und-zubehoer",
@@ -29,9 +29,9 @@
             "originFullUrl": "/genusswelten/koestlichkeiten"
         }]
     }, {
-        "label": "Freizeitwelten",
-        "urlId": "freizeitwelten",
-        "originFullUrl": "/freizeitwelten",
+        "label": "Машиностроительный крепеж",
+        "urlId": "с2",
+        "originFullUrl": "/с2",
         "children": [{
             "label": "Vintage",
             "urlId": "freizeitwelten-vintage",
@@ -42,9 +42,9 @@
             "originFullUrl": "/freizeitwelten/entertainment"
         }]
     }, {
-        "label": "Wohnwelten",
-        "urlId": "wohnwelten",
-        "originFullUrl": "/wohnwelten",
+        "label": "Грузовой крепеж",
+        "urlId": "с3",
+        "originFullUrl": "/с3",
         "children": [{
             "label": "Dekoration",
             "urlId": "wohnwelten-dekoration",
@@ -59,9 +59,9 @@
             "originFullUrl": "/wohnwelten/kuechenzubehoer"
         }]
     }, {
-        "label": "Sommerwelten",
-        "urlId": "sommerwelten",
-        "originFullUrl": "/sommerwelten",
+        "label": "Инструмент",
+        "urlId": "с4",
+        "originFullUrl": "/с4",
         "children": [{
             "label": "Beachwear",
             "urlId": "sommerwelten-beachwear",
@@ -80,9 +80,9 @@
             "originFullUrl": "/sommerwelten/accessoires"
         }]
     }, {
-        "label": "Beispiele",
-        "urlId": "beispiele",
-        "originFullUrl": "/beispiele",
+        "label": "Новости",
+        "urlId": "news",
+        "originFullUrl": "/news",
         "children": [{
             "label": "Konfiguratorartikel",
             "urlId": "beispiele-konfiguratorartikel",
@@ -121,7 +121,7 @@
             "originFullUrl": "/beispiele/preisgestaltung"
         }]
     }, {
-        "label": "% SALE",
+        "label": "Распродажа",
         "urlId": "sale",
         "originFullUrl": "/sale"
     }]

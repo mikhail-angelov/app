@@ -848,9 +848,9 @@ module.exports = function (grunt) {
 
     watchTasks.push('build', 'karma:unit');
 
-    if (userConfig.shop_data_dir === 'local') {
-        watchTasks.push('nodeunit');
-    }
+    //if (userConfig.shop_data_dir === 'local') {
+    //    watchTasks.push('nodeunit');
+    //}
 
     watchTasks.push('connect:livereload');
 
@@ -877,7 +877,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean',
         'html2js',
-        'jshint',
+        //'jshint',
         'sass',
         'copy:build_assets',
         'copy:build_appjs',
@@ -888,8 +888,8 @@ module.exports = function (grunt) {
         'copy:build_vendorcss',
         'copy:build_vendorjs',
         'index:build',
-        'karmaconfig',
-        'karma:continuous',
+        //'karmaconfig',
+        //'karma:continuous',
     ]);
 
     /**

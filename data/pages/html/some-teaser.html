@@ -9,17 +9,17 @@
 
 <div class="teaser teaser--test">
 
-    <div ng-if="!deviceService.isTabletSize() && deviceService.isInPortraitMode()">
-        <!-- smartphone portrait -->
-        <img ng-src="http://placehold.it/640x200/bfd5cb/ffffff" alt=""/>
-    </div>
-    <div ng-if="(!deviceService.isTabletSize() && !deviceService.isInPortraitMode()) || deviceService.isTabletSize() && deviceService.isInPortraitMode()">
-        <!-- smartphone landscape && tablet portrait -->
-        <img ng-src="http://placehold.it/1536x500/bfd5cb/ffffff" alt=""/>
-    </div>
+    <!--<div ng-if="!deviceService.isTabletSize() && deviceService.isInPortraitMode()">-->
+        <!--&lt;!&ndash; smartphone portrait &ndash;&gt;-->
+        <!--<img ng-src="http://placehold.it/640x200/bfd5cb/ffffff" alt=""/>-->
+    <!--</div>-->
+    <!--<div ng-if="(!deviceService.isTabletSize() && !deviceService.isInPortraitMode()) || deviceService.isTabletSize() && deviceService.isInPortraitMode()">-->
+        <!--&lt;!&ndash; smartphone landscape && tablet portrait &ndash;&gt;-->
+        <!--<img ng-src="http://placehold.it/1536x500/bfd5cb/ffffff" alt=""/>-->
+    <!--</div>-->
     <div ng-if="deviceService.isTabletSize() && !deviceService.isInPortraitMode()">
         <!-- tablet landscape mode -->
-        <img ng-src="http://placehold.it/2048x800/bfd5cb/ffffff" alt=""/>
+        <img ng-src="assets/images/main.jpg" alt=""/>
     </div>
 
 </div>
